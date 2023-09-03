@@ -1,0 +1,84 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --primaryfont: Arial,Helvetica,sans-serif;
+}
+body {
+    font-family: var(--primaryfont);
+    background: rgba(5,5,94,1);
+    background: -moz-linear-gradient(top, rgba(5,5,94,1) 0%, rgba(5,5,94,1) 15%, rgba(50,128,201,1) 70%, rgba(50,128,201,1) 81%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,5,94,1)), color-stop(15%, rgba(5,5,94,1)), color-stop(70%, rgba(50,128,201,1)), color-stop(81%, rgba(50,128,201,1)));
+    background: -webkit-linear-gradient(top, rgba(5,5,94,1) 0%, rgba(5,5,94,1) 15%, rgba(50,128,201,1) 70%, rgba(50,128,201,1) 81%);
+    background: -o-linear-gradient(top, rgba(5,5,94,1) 0%, rgba(5,5,94,1) 15%, rgba(50,128,201,1) 70%, rgba(50,128,201,1) 81%);
+    background: -ms-linear-gradient(top, rgba(5,5,94,1) 0%, rgba(5,5,94,1) 15%, rgba(50,128,201,1) 70%, rgba(50,128,201,1) 81%);
+    background: linear-gradient(to bottom, rgba(5,5,94,1) 0%, rgba(5,5,94,1) 15%, rgba(50,128,201,1) 70%, rgba(50,128,201,1) 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05055e', endColorstr='#3280c9', GradientType=0 );
+
+}
+.title{
+    color: var(--white);
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri f;
+
+}
+.hero{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 29px 7px 13px 26px rgba(0,0,0,0.66);
+    -moz-box-shadow: 29px 7px 13px 26px rgba(0,0,0,0.66);
+    box-shadow: 29px 7px 13px 26px rgba(0,0,0,0.66);
+}
+
+.content-hero{
+    background-image: url(https://vsthemes.org/uploads/posts/workshop/289166300763fc33262ae70310529493.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.content-hero h2{
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri f;
+}
+
+.content-hero p{
+    color: var(--white);
+    font-size: larger;
+    text-align: center;
+}
+
+main{
+    -webkit-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+.member h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.member-image {
+    text-align: center;
+}
